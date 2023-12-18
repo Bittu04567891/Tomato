@@ -1,12 +1,10 @@
 import React from "react";
-import Footer from "./components/Footer/Footer";
-import Copyright from "./components/copyright/Copyright";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
     <div>
-      <Footer />
-      <Copyright />
+      <Home />
     </div>
   );
 };
