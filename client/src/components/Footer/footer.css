@@ -1,0 +1,43 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: rgb(248, 248, 248);
+    color: black;
+    font-family: Arial, sans-serif;
+  }
+  
+  .Logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  div {
+    text-align: left;
+  }
+  
+  h4 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+
+  a {
+    color: white;
+    text-decoration: none;
+    
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
