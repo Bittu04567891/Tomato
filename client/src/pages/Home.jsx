@@ -1,13 +1,14 @@
 import React from "react";
-import Login from "./Login/Login";
+
 import Footer from "../components/Footer/Footer";
 
 import Copyright from "../components/copyright/Copyright";
+import Restaurant from "./Restaurant/Restaurant";
 
 const Home = () => {
   return (
     <div>
-      <Login />
+      <Restaurant />
       <Footer />
       <Copyright />
     </div>

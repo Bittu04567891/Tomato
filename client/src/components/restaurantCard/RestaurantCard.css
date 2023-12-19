@@ -1,0 +1,26 @@
+
+
+.restaurant-card {
+    /* padding: 2rem 2.4rem; */
+    padding-left: 2%;
+    border-radius: 0.8rem;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232);
+    margin-bottom: 1.5rem;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    height: 25%;
+    width: 30%;
+  }
+  
+  .right-arrow {
+    margin-left:20px;
+    font-size: 20px;
+  }
+  .restaurant-card:hover{
+   background-color: gray;
+  }

@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import "./footer.css";
+import { useAppContext } from "../../Context/AppContext";
 
 const Footer = () => {
   const [selectedCountry, setSelectedCountry] = useState("India");
   const [selectedLanguage, setSelectedLanguage] = useState("English");
-  const [selectedno, setSelectedno] = useState(2);
+  const { selectedno, setSelectedno } = useAppContext();
 
   const handleCountryChange = (country) => {
     setSelectedCountry(country);
