@@ -1,10 +1,12 @@
 import React from "react";
-import Home from "./pages/Home";
+import RestroHome from "./pages/Resto_bussiness/RestroHome";
+// import Home from "./pages/Home";
 
 const App = () => {
   return (
     <div>
-      <Home />
+      {/* <Home /> */}
+      <RestroHome />
     </div>
   );
 };

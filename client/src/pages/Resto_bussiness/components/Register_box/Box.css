@@ -1,0 +1,37 @@
+.white-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center-align content */
+    height: 350px;
+    width: 500px;
+    margin-left: 35%;
+  }
+  
+  .box-heading {
+    color: #333; /* Set the heading color */
+    margin-bottom: 20px; /* Adjust the margin as needed */
+  }
+  
+  .box-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping to move to the next row */
+    justify-content: left; /* Distribute items evenly */
+  }
+  
+  .box-list-item {
+    margin-bottom: 15px;
+    width: 45%; /* Two items in one row, adjust as needed */
+    box-sizing: border-box; /* Include padding and border in the width */
+    color: black;
+    font-size:25px;
+   
+  }
+  
+.apply{
+    color: blue;
+}
+  

@@ -1,0 +1,51 @@
+.Restro_nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: transparent; /* No background color */
+  }
+  
+  .restro_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin-left:60%; /* Pushes everything to the top right */
+  }
+  
+
+  
+  .restro_li {
+    margin-left: 25px; /* Adjust the margin as needed */
+    color: white; /* Set the text color */
+    cursor: pointer;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  /* Optionally, you can add hover styles for the list items */
+  .restro_li:hover {
+    text-decoration: underline;
+  }
+.login_restro{
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+.create_restro{
+    font-size: 20px;
+    background-color:rgb(76, 76, 250);
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}

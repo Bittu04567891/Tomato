@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .Cover_Restro{
+    background-color: rgb(233, 227, 227);
+  }
+  .Restro_Lan {
+    position: relative;
+  }
+  
+  .Restro_bg {
+    width: 100%;
+    object-fit: cover;
+    height: 30vw;
+  }
+  
+  .top_p{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white; 
+    font-size: 45px;
+  }
+  .sub_p {
+    position: absolute;
+    top: 47%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white; /* Set text color */
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .sub_p {
+    margin-top: 40px; /* Adjust as needed */
+  }
+  
+  span {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+  }
+  
+  .sub_p2 {
+    position: absolute;
+    top: calc(70% + 10px); /* Adjust the value based on your design */
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: left;
+    color: white; /* Set text color */
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .blue_b{
+    width:50vh;
+    height:7vh;
+    background-color: rgb(76, 76, 250);
+    color: white;
+    cursor: pointer;
+    border-radius:12px;
+    font-size: 20px;
+    border: none;
+  }
+  .white_b{
+    width:50vh;
+    height:7vh;
+    background: white;
+    color: #000;
+    cursor: pointer;
+    border-radius:12px;
+    font-size: 20px;
+  }
+  

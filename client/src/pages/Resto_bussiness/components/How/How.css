@@ -1,0 +1,40 @@
+/* How.css */
+.how_cont{
+    background-image: url("https://b.zmtcdn.com/merchant-onboarding/f57794be6408563354c463c702ab45b91600672364.png");
+}
+.how_cont h1{
+    margin-left: 40%;
+}
+.how-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+    
+}
+  
+  .how-box {
+    background-color:white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 25%;
+    height:270px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .how-box img {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+  }
+  
+  .how-box h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .how-box p {
+    color: #666;
+    font-size:25px;
+  }
+  

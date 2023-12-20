@@ -1,0 +1,42 @@
+/* Why.css */
+.why{
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+.h2{
+    margin-left: 350px;
+    font-weight: 600;
+    font-size: 50px;
+    
+}
+.h4{
+    margin-left: 250px;
+    font-weight: 300;
+    font-size: 30px;
+    justify-content: center;
+    
+}
+.why-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .why-box {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  
+  .why-box p {
+    color: #666;
+  }
+  .Sub_head{
+    color: rgb(95, 95, 246);
+  }
