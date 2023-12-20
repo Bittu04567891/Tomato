@@ -50,7 +50,6 @@ const Faq = () => {
           >
             <h3>{item.question}</h3>
             <i class="fa-solid fa-chevron-down"></i>
-            <span>{activeIndex === index ? "-" : "+"}</span>
           </div>
           {activeIndex === index && <p className="faq-answer">{item.answer}</p>}
         </div>
