@@ -1,0 +1,32 @@
+.landing {
+    position: relative;
+    text-align: center;
+  }
+  
+  .img-bg {
+    height: 570px;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  .img-bg{
+    display: block;
+    margin: auto;
+  }
+  
+  .logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .para{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    font-weight: 900;
+    font-size:50px;
+    color:white;
+    opacity: 70%;
+  }
