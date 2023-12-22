@@ -131,7 +131,7 @@ const Restaurant = () => {
           />{" "}
           {data[selectedno - 1].name}
         </h1>
-        <p className="top_p">
+        <p className="top_p1">
           From swanky upscale restaurants to the cosiest hidden gems serving the
           most incredible food, TomatoEats covers it all. Explore menus, and
           millions of restaurant photos and reviews from users just like you, to

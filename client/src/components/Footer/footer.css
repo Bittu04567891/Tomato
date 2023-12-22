@@ -13,11 +13,11 @@
     font-weight: bold;
   }
   
-  div {
+  .footer div {
     text-align: left;
   }
   
-  h4 {
+  .footer h4 {
     margin-bottom: 10px;
   }
   .social-icon{
@@ -28,24 +28,24 @@
     padding-left:10px;
     padding-right: 10px;
   }
-  ul {
+  .footer ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
   }
   
-  li {
+  .footer li {
     margin-bottom: 5px;
   }
   
 
-  a {
+  .footer a {
     color: white;
     text-decoration: none;
     
   }
   
-  a:hover {
+  .footer a:hover {
     text-decoration: underline;
   }
   .Dropdowns {

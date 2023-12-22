@@ -6,9 +6,11 @@ const RestaurantCard = ({ restaurantName }) => {
     <div className="restaurant-card">
       <h3>
         {restaurantName}
-        <span className="right-arrow">
-          <i class="fa-solid fa-chevron-right"></i>
-        </span>
+
+        <i
+          style={{ paddingLeft: "28px" }}
+          className="fa-solid fa-chevron-right"
+        ></i>
       </h3>
     </div>
   );

@@ -35,14 +35,14 @@ const Footer = () => {
   return (
     <div className="footer">
       <span>
-        <section className="Logo">TomatoEats</section>
-        <button style={{ padding: "5px", border: "none", background: "none" }}>
+        {/* <section className="Logo">TomatoEats</section> */}
+        {/* <button style={{ padding: "5px", border: "none", background: "none" }}>
           <img
             alt="country"
             src={data[selectedno - 1].url}
             style={{ height: "80px", width: "90px" }}
           />
-        </button>
+        </button> */}
       </span>
 
       <div className="Dropdowns">
@@ -53,7 +53,7 @@ const Footer = () => {
               src={data[selectedno - 1].url}
               style={{ height: "30px", width: "30px" }}
             />
-            {selectedCountry} <span>▼</span>
+            {selectedCountry} ▼
           </button>
           <div className="DropdownContent">
             <button
@@ -86,9 +86,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="Dropdown">
-          <button className="DropdownButton">
-            {selectedLanguage} <span>▼</span>
-          </button>
+          <button className="DropdownButton">{selectedLanguage} ▼</button>
           <div className="DropdownContent">
             <button onClick={() => handleLanguageChange("English")}>
               English

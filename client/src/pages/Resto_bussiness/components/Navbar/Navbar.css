@@ -31,7 +31,7 @@
   
   /* Optionally, you can add hover styles for the list items */
   .restro_li:hover {
-    text-decoration: underline;
+    color: aqua;
   }
 .login_restro{
     font-size: 20px;
@@ -39,6 +39,7 @@
     color: white;
     border: 1px solid white;
     border-radius: 5px;
+    cursor: pointer;
 
 }
 .create_restro{
@@ -47,5 +48,6 @@
     color: white;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 
 }

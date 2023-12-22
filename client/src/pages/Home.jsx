@@ -1,8 +1,5 @@
 import React from "react";
 
-import Footer from "../components/Footer/Footer";
-
-import Copyright from "../components/copyright/Copyright";
 import Restaurant from "./Restaurant/Restaurant";
 import Landing from "./Landing/Landing";
 
@@ -11,8 +8,6 @@ const Home = () => {
     <div>
       <Landing />
       <Restaurant />
-      <Footer />
-      <Copyright />
     </div>
   );
 };
